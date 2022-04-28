@@ -13,18 +13,30 @@ struct RandomDrinkView: View {
     
     var body: some View {
         //let (randomName, randomImage, randomPrice) = randomPick()
-        VStack(alignment: .center, spacing: 16) {
-            titleSection
-            imageSection
-            pickDrinkButton
-            
+        GeometryReader { geo in
+            ZStack {
+                Image("CoffeeBeans")
+                    .resizable()
+                    .scaledToFill()
+                    .edgesIgnoringSafeArea(.all)
+                    .frame(width: geo.size.width, height: geo.size.height, alignment: .center)
+                    .opacity(1.0)
+                VStack(alignment: .center, spacing: 16) {
+                    titleSection
+                    imageSection
+                    pickDrinkButton
+                    
+                }
+                .padding(20)
+                .background(RoundedRectangle(cornerRadius: 10)
+                    .fill(.ultraThinMaterial)
+                    .offset(y: 65)
+                )
+                .cornerRadius(10)
+            }
         }
-        .padding(20)
-        .background(RoundedRectangle(cornerRadius: 10)
-            .fill(.ultraThinMaterial)
-            .offset(y: 65)
-        )
-        .cornerRadius(10)
+        
+       
     }
     
     func randomPick() -> (String, String, String) {
@@ -40,9 +52,10 @@ struct RandomDrinkView: View {
 struct RandomDrinkView_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
-            Color("AccentColor").ignoresSafeArea()
+            //Color("AccentColor").ignoresSafeArea()
+            Image("CoffeeBeans").ignoresSafeArea()
             RandomDrinkView(drink: DrinkDataService.drinks.randomElement()!)
-                .padding(10)
+                //.padding(10)
         }
         .environmentObject(DrinksViewModel())
     }
@@ -60,9 +73,9 @@ struct RandomDrinkView_Previews: PreviewProvider {
 extension RandomDrinkView {
     private var imageSection: some View {
         ZStack {
-                Image(systemName: "cup.and.saucer.fill")
+                Image("Coffee-Drinks0")
                     .resizable()
-                    .scaledToFit()
+                    .scaledToFill()
                     .frame(width: 200, height: 200)
                     .cornerRadius(10)
                 
@@ -73,14 +86,14 @@ extension RandomDrinkView {
     }
     
     private var titleSection: some View {
-        VStack (alignment: .leading) {
+        VStack (alignment: .center) {
             Text("What should I order?")
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .padding(.bottom, 10)
                 .colorInvert()
         }
-        .frame(maxWidth: .infinity, alignment: .leading)
+        .frame(maxWidth:330, alignment: .center)
         
     }
     
