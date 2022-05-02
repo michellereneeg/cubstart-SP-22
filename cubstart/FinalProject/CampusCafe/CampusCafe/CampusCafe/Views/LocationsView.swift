@@ -40,19 +40,31 @@ struct LocationsView: View {
             
             ZStack {
                 Color("AccentColor").ignoresSafeArea()
-                RandomDrinkView(drink: DrinkDataService.drinks.randomElement()!)
+                RandomDrinkView()
                     .padding(10)
             }
 //            .sheet(item: $dm.sheetDrink, onDismiss: nil) { drink in
 //                RandomDrinkDetailView(drink: DrinkDataService.drinks.randomElement()!)
 //            }
-            .environmentObject(DrinksViewModel())
+//            .environmentObject(DrinksViewModel())
             
            
                 .tabItem{
                     Image(systemName: "cup.and.saucer.fill")
                     Text("Drink Pick")
                 }
+            ZStack{
+                Color("AccentColor").ignoresSafeArea()
+                RandomCafeView()
+                    .padding(10)
+                
+            }
+            
+            .tabItem{
+                Image(systemName: "takeoutbag.and.cup.and.straw.fill")
+                Text("Cafe Pick")
+            }
+        
         }
             
         

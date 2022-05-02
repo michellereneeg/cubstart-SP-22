@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct RandomDrinkDetailView: View {
-    @EnvironmentObject private var dm: DrinksViewModel
+//    @EnvironmentObject private var dm: DrinksViewModel
     let drink: Drink
     
     var body: some View {
@@ -27,12 +27,12 @@ struct RandomDrinkDetailView: View {
     }
 }
 
-struct RandomDrinkDetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        RandomDrinkDetailView(drink: DrinkDataService.drinks.randomElement()!)
-            .environmentObject(DrinksViewModel())
-    }
-}
+//struct RandomDrinkDetailView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        RandomDrinkDetailView(drink: DrinkDataService.drinks.randomElement()!)
+//            .environmentObject(DrinksViewModel())
+//    }
+//}
 
 //
 //  LocationDetailView.swift
@@ -82,7 +82,7 @@ extension RandomDrinkDetailView {
     
     private var backButton: some View {
         Button {
-            dm.sheetDrink = nil
+//            dm.sheetDrink = nil
         } label: {
             Image(systemName: "xmark")
                 .font(.headline)
