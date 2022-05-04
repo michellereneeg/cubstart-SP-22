@@ -17,15 +17,14 @@
 		4D107052280D0A6500B9AA0C /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D107051280D0A6500B9AA0C /* LocationsViewModel.swift */; };
 		4D175B82281753480042F6C7 /* RandomDrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D175B81281753480042F6C7 /* RandomDrinkView.swift */; };
 		4D175B84281760760042F6C7 /* RandomDrinkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D175B83281760760042F6C7 /* RandomDrinkDetailView.swift */; };
-		4D3C34B328162A6700FC0A77 /* DrinkPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3C34B228162A6700FC0A77 /* DrinkPickView.swift */; };
 		4D4C4A6F2814D8E7000712B6 /* DrinkDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C4A6E2814D8E7000712B6 /* DrinkDataService.swift */; };
 		4D4C4A712814D9DB000712B6 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C4A702814D9DB000712B6 /* Drink.swift */; };
-		4D4C4A732814F768000712B6 /* DrinksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C4A722814F768000712B6 /* DrinksViewModel.swift */; };
 		4D4D22E5280E1D6700A95C64 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D22E4280E1D6700A95C64 /* LocationsListView.swift */; };
 		4D9D043A2810BABE004AE766 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9D04392810BABE004AE766 /* LocationMapAnnotationView.swift */; };
 		4D9D043C2810EEA4004AE766 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9D043B2810EEA3004AE766 /* LocationDetailView.swift */; };
 		4DEAD280280F8F2A00B2BAA1 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEAD27F280F8F2A00B2BAA1 /* LocationPreviewView.swift */; };
 		4DF8D8372814B7E9003B4251 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF8D8362814B7E9003B4251 /* Images.xcassets */; };
+		854689A6281F711B00B9243C /* RandomCafeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854689A5281F711B00B9243C /* RandomCafeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,16 +39,15 @@
 		4D107051280D0A6500B9AA0C /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		4D175B81281753480042F6C7 /* RandomDrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDrinkView.swift; sourceTree = "<group>"; };
 		4D175B83281760760042F6C7 /* RandomDrinkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDrinkDetailView.swift; sourceTree = "<group>"; };
-		4D3C34B228162A6700FC0A77 /* DrinkPickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkPickView.swift; sourceTree = "<group>"; };
 		4D4C4A6E2814D8E7000712B6 /* DrinkDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDataService.swift; sourceTree = "<group>"; };
 		4D4C4A702814D9DB000712B6 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
-		4D4C4A722814F768000712B6 /* DrinksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksViewModel.swift; sourceTree = "<group>"; };
 		4D4D22E4280E1D6700A95C64 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 		4D8748FF2813BD89006B760E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		4D9D04392810BABE004AE766 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
 		4D9D043B2810EEA3004AE766 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 		4DEAD27F280F8F2A00B2BAA1 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		4DF8D8362814B7E9003B4251 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		854689A5281F711B00B9243C /* RandomCafeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomCafeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,9 +119,9 @@
 				4DEAD27F280F8F2A00B2BAA1 /* LocationPreviewView.swift */,
 				4D9D04392810BABE004AE766 /* LocationMapAnnotationView.swift */,
 				4D9D043B2810EEA3004AE766 /* LocationDetailView.swift */,
-				4D3C34B228162A6700FC0A77 /* DrinkPickView.swift */,
 				4D175B81281753480042F6C7 /* RandomDrinkView.swift */,
 				4D175B83281760760042F6C7 /* RandomDrinkDetailView.swift */,
+				854689A5281F711B00B9243C /* RandomCafeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -132,7 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				4D107051280D0A6500B9AA0C /* LocationsViewModel.swift */,
-				4D4C4A722814F768000712B6 /* DrinksViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -219,7 +216,6 @@
 			files = (
 				4D100CF6280CF5BF004D41D5 /* LocationsDataService.swift in Sources */,
 				4D9D043A2810BABE004AE766 /* LocationMapAnnotationView.swift in Sources */,
-				4D4C4A732814F768000712B6 /* DrinksViewModel.swift in Sources */,
 				4D175B82281753480042F6C7 /* RandomDrinkView.swift in Sources */,
 				4D4D22E5280E1D6700A95C64 /* LocationsListView.swift in Sources */,
 				4D4C4A6F2814D8E7000712B6 /* DrinkDataService.swift in Sources */,
@@ -227,11 +223,11 @@
 				4DEAD280280F8F2A00B2BAA1 /* LocationPreviewView.swift in Sources */,
 				4D107052280D0A6500B9AA0C /* LocationsViewModel.swift in Sources */,
 				4D100CE2280CD65C004D41D5 /* ContentView.swift in Sources */,
-				4D3C34B328162A6700FC0A77 /* DrinkPickView.swift in Sources */,
 				4D107050280CFD2700B9AA0C /* LocationsView.swift in Sources */,
 				4D100CF3280CF3E2004D41D5 /* Location.swift in Sources */,
 				4D9D043C2810EEA4004AE766 /* LocationDetailView.swift in Sources */,
 				4D4C4A712814D9DB000712B6 /* Drink.swift in Sources */,
+				854689A6281F711B00B9243C /* RandomCafeView.swift in Sources */,
 				4D100CE0280CD65C004D41D5 /* CampusCafe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
